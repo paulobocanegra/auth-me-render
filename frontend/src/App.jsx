@@ -45,7 +45,10 @@ const router = createBrowserRouter([
 ]);
 
 const App = () => {
-  return <RouterProvider router={router} />;
+  return (<>
+      <h1>HELLO FROM UPDATE</h1>
+    <RouterProvider router={router} />;
+  </>)
 };
 
 export default App;
