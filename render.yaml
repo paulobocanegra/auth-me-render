@@ -18,5 +18,7 @@ services:
         fromDatabase:
           name: authenticateme
           property: connectionString
+      - key: RAILS_ENV
+        value: production
       - key: RAILS_MASTER_KEY
         sync: false
